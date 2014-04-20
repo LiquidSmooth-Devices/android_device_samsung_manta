@@ -6,17 +6,17 @@ TARGET_SCREEN_WIDTH := 2560
 PRODUCT_RELEASE_NAME := Nexus10
 
 # Inherit some common Liquid stuff.
-$(call inherit-product, vendor/Liquid/config/common_tablet.mk)
+$(call inherit-product, vendor/liquid/config/common_tablet.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/Liquid/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/manta/full_manta.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := manta
-PRODUCT_NAME := Liquid_manta
+PRODUCT_NAME := liquid_manta
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 10
 PRODUCT_MANUFACTURER := samsung
