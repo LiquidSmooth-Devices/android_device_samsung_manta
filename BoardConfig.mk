@@ -38,7 +38,7 @@ TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := cyanogenmod_manta_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/manta
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := sm-arm-eabi-4.7
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7-sm
 
 #Bluetooth
 BOARD_HAVE_BLUETOOTH := true
