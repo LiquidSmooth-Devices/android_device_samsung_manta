@@ -34,5 +34,11 @@
         "repository": "android_kernel_samsung_manta",
         "target_path": "kernel/samsung/manta",
         "revision": "cm-11.0"
+    },
+    {
+        "remote": "aosp",
+        "repository": "platform/hardware/samsung_slsi/exynos5",
+        "target_path": "hardware/samsung_slsi/exynos5",
+        "revision": "refs/tags/android-4.4.3_r1.1"
     }
 ]
